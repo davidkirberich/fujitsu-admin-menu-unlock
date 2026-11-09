@@ -112,3 +112,7 @@ Output artifacts in `build/`:
 ## Behavior & Safety
 
 The utility performs a single, non-interactive write attempt automatically at boot.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
