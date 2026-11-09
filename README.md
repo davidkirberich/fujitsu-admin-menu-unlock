@@ -1,8 +1,15 @@
 # Fujitsu Admin Menu Unlock
 
-Standalone source package for the `admin-menu-unlock.iso` UEFI payload.
+`admin-menu-unlock.iso` is a bootable UEFI utility that exposes the hidden vendor **Admin** menu in the server's BIOS for a single boot session.
 
-Download bootable *.iso file here: xxxx
+By toggling an internal firmware variable in volatile memory, it temporarily unlocks hundreds of suppressed platform configuration options—including low-level CPU controls, memory timings, PCIe topology and bifurcation, TPM policies, and overclocking parameters. The unlock is strictly non-persistent: no modifications are written to the SPI flash or persistent NVRAM, and standard access restrictions automatically re-engage on the next boot.
+
+Download bootable *.iso file here: [admin-menu-unlock.iso](https://github.com/davidkirberich/fujitsu-admin-menu-unlock/blob/main/build/admin-menu-unlock.iso)
+(WARNING: USE AT OWN RISK!)
+
+## Instructions
+
+### 
 
 ## Tested Target Baseline
 
