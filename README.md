@@ -11,15 +11,19 @@ Download bootable *.iso file here: [admin-menu-unlock.iso](https://github.com/da
 ## Instructions
 
 Step 1: Select the virtual drive containing the ISO (Fujitsu Virtual CDROM0) from the boot menu and press Enter.
+
 <img src="https://github.com/davidkirberich/fujitsu-admin-menu-unlock/blob/main/screenshots/setup_1.PNG" width="400">
 
 Step 2: Wait for the verification confirmation (Verified: hidden flag is zero) and exit the utility by pressing Escape without resetting the server.
+
 <img src="https://github.com/davidkirberich/fujitsu-admin-menu-unlock/blob/main/screenshots/setup_2.PNG" width="400">
 
 Step 3: Select Enter Setup from the boot menu to enter the BIOS configuration directly.
+
 <img src="https://github.com/davidkirberich/fujitsu-admin-menu-unlock/blob/main/screenshots/setup_3.PNG" width="400">
 
-Step 4: Navigate to the Advanced tab to access the newly unlocked Admin menu.   
+Step 4: Navigate to the Advanced tab to access the newly unlocked Admin menu.
+
 <img src="https://github.com/davidkirberich/fujitsu-admin-menu-unlock/blob/main/screenshots/setup_4.PNG" width="400">
 
 ## Tested Target Baseline
@@ -31,7 +35,7 @@ Step 4: Navigate to the Advanced tab to access the newly unlocked Admin menu.
 | **BIOS** | V5.0.0.14 R1.44.0 (2025-09-30) |
 | **Boot Mode** | x86-64 UEFI (Legacy BIOS unsupported) |
 
-> **Important:** Other models or firmware revisions are unverified. The utility does not check system model or BIOS version strings—it strictly checks the target UEFI variable (GUID, size, attributes, value). Passing these safety checks does not guarantee broader hardware compatibility.
+> **Important:** Other models or firmware revisions are unverified. The utility does not check system model or BIOS version strings; it strictly checks the target UEFI variable (GUID, size, attributes, value). Passing these safety checks does not guarantee broader hardware compatibility.
 
 ---
 
