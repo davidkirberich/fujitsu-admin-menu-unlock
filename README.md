@@ -5,11 +5,20 @@
 By toggling an internal firmware variable in volatile memory, it temporarily unlocks hundreds of suppressed platform configuration options—including low-level CPU controls, memory timings, PCIe topology and bifurcation, TPM policies, and overclocking parameters. The unlock is strictly non-persistent: no modifications are written to the SPI flash or persistent NVRAM, and standard access restrictions automatically re-engage on the next boot.
 
 Download bootable *.iso file here: [admin-menu-unlock.iso](https://github.com/davidkirberich/fujitsu-admin-menu-unlock/blob/main/build/admin-menu-unlock.iso)
-(WARNING: USE AT OWN RISK!)
+
+**(WARNING: USE AT OWN RISK!)**
 
 ## Instructions
 
-### 
+https://github.com/davidkirberich/fujitsu-admin-menu-unlock/blob/main/screenshot/setup_1.PNG
+https://github.com/davidkirberich/fujitsu-admin-menu-unlock/blob/main/screenshot/setup_3.PNG
+https://github.com/davidkirberich/fujitsu-admin-menu-unlock/blob/main/screenshot/setup_4.PNG
+https://github.com/davidkirberich/fujitsu-admin-menu-unlock/blob/main/screenshot/setup_5.PNG
+
+Step 1: Select the virtual drive containing the ISO (Fujitsu Virtual CDROM0) from the boot menu and press Enter.
+Step 2: Wait for the verification confirmation (Verified: hidden flag is zero) and exit the utility by pressing Escape without resetting the server.
+Step 3: Select Enter Setup from the boot menu to enter the BIOS configuration directly.
+Step 4: Navigate to the Advanced tab to access the newly unlocked Admin menu.   
 
 ## Tested Target Baseline
 
